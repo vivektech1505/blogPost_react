@@ -369,9 +369,9 @@
 }
 @media screen and (max-width: 500px) {
     
-    /* .container {
-        padding: 20px;
-    } */
+    .container {
+        padding: 10px 20px;
+    }
 
     .container1 {
         padding: 10px;
