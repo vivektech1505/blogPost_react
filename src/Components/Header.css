@@ -238,8 +238,12 @@
     .container {
         width: 70%;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         
+    }
+    .icons{
+        display: flex;
+        gap: 10px;
     }
     .container1{
         width: 100%;
@@ -343,7 +347,7 @@
     .footer{
         width: 60%;
         align-items: center;
-        justify-content: center;
+       justify-content: space-between;
         
     }
 }
