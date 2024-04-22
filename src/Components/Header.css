@@ -235,16 +235,32 @@
 
 @media screen and (max-width: 768px) {
     
-    .container {
+    .container{
         width: 80%;
-        align-items: center;
+        display: flex;
         justify-content: space-between;
-        
-        
+        margin: 0 auto;
+        align-items:center;
+        max-height: 24px;
+        padding-top: 30px;
+    }
+    .logo{
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24.2px;
     }
     .icons{
         display: flex;
-        gap: 10px;
+        gap: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.3px;
+        cursor: pointer;
+    }
+    .icons img{
+        height: 24px;
+        width: 24px;
     }
     .container1{
         width: 100%;
