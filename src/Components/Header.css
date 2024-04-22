@@ -241,8 +241,7 @@
         justify-content: space-between;
         margin: 0 auto;
         align-items:center;
-        max-height: 24px;
-        padding-top: 30px;
+       
     }
     .logo{
         color: black;
@@ -252,7 +251,7 @@
     }
     .icons{
         display: flex;
-        gap: 20px;
+        gap: 10px;
         font-weight: 400;
         font-size: 16px;
         line-height: 19.3px;
@@ -370,9 +369,9 @@
 }
 @media screen and (max-width: 500px) {
     
-    .container {
+    /* .container {
         padding: 20px;
-    }
+    } */
 
     .container1 {
         padding: 10px;
