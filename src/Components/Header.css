@@ -26,6 +26,10 @@
     line-height: 19.3px;
     cursor: pointer;
 }
+.icons a {
+    text-decoration: none;
+}
+
 .icons img{
     height: 24px;
     width: 24px;
@@ -204,8 +208,7 @@
     padding-top: 20px;
 }
 
-
-.footer{
+.footer11{
     max-width: 880px;
     display: flex;
     justify-content: space-between;
@@ -214,13 +217,13 @@
     padding-top: 30px;
     height: 100px;
 }
-.logo1{
+.logo11{
     color: black;
     font-weight: 400;
     font-size: 16px;
     line-height: 24.2px;
 }
-.footer1{
+.footer12{
     display: flex;
     gap: 20px;
     font-weight: 400;

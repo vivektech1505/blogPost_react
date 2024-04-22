@@ -1,30 +1,17 @@
-import CardLatest from './Components/CardLatest'
-import Header from './Components/Header'
-import HeadSection from './Components/HeadSection'
-import './App.css'
-import Cards from './Components/Cards'
-import HighLightSection from './Components/HighLightSection'
-import SeeMore from './Components/SeeMore'
-import Footer from './Components/Footer'
-
+import Combine from "./pages/Combine";
+import Combine1 from "./pages/Combine1";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-
-
   return (
-    <>
-    <div className='main'>
-      <Header />
-      <HeadSection />
-      <CardLatest />
-      <Cards />
-      <HighLightSection />
-      <SeeMore />
-      <Footer />
-    </div>
-      
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Combine />} />
+        <Route path="/company" element={<Combine1 />} />
+        
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
