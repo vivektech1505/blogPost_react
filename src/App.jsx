@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Combine />} />
-        <Route path="/company" element={<Combine1 />} />
+        <Route path="/post" element={<Combine1 />} />
         
       </Routes>
     </BrowserRouter>

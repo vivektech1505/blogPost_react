@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div className="icons">
           <p>Home</p>
-           <Link to={"/company"}><p>Post</p></Link>
+           <Link to={"/post"}><p>Post</p></Link>
             <img src={pic2}/>
             <img src={pic1} />
             <img src={pic}/>
