@@ -236,9 +236,10 @@
 @media screen and (max-width: 768px) {
     
     .container {
-        width: 100%;
+        width: 70%;
         align-items: center;
-        padding: 20px 80px;
+        justify-content: center;
+        
     }
     .container1{
         width: 100%;
@@ -265,36 +266,74 @@
         height:257px
     }
     .container2{
-        display: flex;
         width: 100%;
         flex-direction: column;
-        padding: 30px;
-        justify-content: center;
+        padding: 10px 20px;
+        margin: 0 auto;
+        display: flex;
         align-items: center;
+        justify-content: center;
+    }
+    .info h1{
+        font-size:30px ;
+        text-align: center;
+    }
+    .info p{
+        text-align: center;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    .info1{
+        display: flex;
+        gap: 100px;
+        margin-bottom: 20px;
     }
     
     .imageInfo img{
-        width: 333px;
-        height: 143px;
+        width: 353px;
+        height: 173px;
     }
     .container-item{
         width: 100%;
         flex-direction: column;
-        
+        margin: 0 auto;
         display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .itemsData{
+        width: 70%;
         justify-content: center;
         align-items: center;
+
     }
     .highlight-container{
         width: 100%;
         flex-direction: column;
+        padding: 10px 20px;
         margin: 0 auto;
+        display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .highlight-item h1{
+        font-size:30px ;
+        text-align: center;
+    }
+    .highlight-item p{
+        text-align: center;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    .button-info{
+        display: flex;
+        gap: 100px;
     }
     .image-info img{
         width: 300px;
         height: 300px;
+        margin-top: 20px;
     }
     .see-more{
         display: flex;
@@ -302,9 +341,10 @@
         justify-content: center;
     }
     .footer{
-        width: 100%;
+        width: 60%;
         align-items: center;
-        padding: 20px 100px;
+        justify-content: center;
+        
     }
 }
 @media screen and (max-width: 500px) {
