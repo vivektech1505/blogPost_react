@@ -236,7 +236,7 @@
 @media screen and (max-width: 768px) {
     
     .container{
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
